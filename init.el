@@ -40,7 +40,7 @@
   (exec-path-from-shell-initialize))
 
 ;; theme
-(set-frame-font "Source Code Pro 15")
+(set-frame-font "mononoki 15")
 (straight-use-package 'spacemacs-theme)
 (require 'spacemacs-light-theme)
 (load-theme 'spacemacs-light t)
@@ -60,3 +60,7 @@
 (good-scroll-mode 1)
 (global-set-key (kbd "M-j") #'good-scroll-up)
 (global-set-key (kbd "M-k") #'good-scroll-down)
+
+;; agda
+(load-file (let ((coding-system-for-read 'utf-8))
+                (shell-command-to-string "agda-mode locate")))
