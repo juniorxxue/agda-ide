@@ -6,3 +6,4 @@
 
 * Theme (carefully chosen theme + font)
 * Functionality (enough and only for agda programming and easy to hack)
+* Out of the box (no path problem)
