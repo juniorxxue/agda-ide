@@ -7,3 +7,9 @@
 * Theme (carefully chosen theme + font)
 * Functionality (enough and only for agda programming and easy to hack)
 * Out of the box (no path problem)
+
+## How?
+
+* Install [mononoki font](https://madmalik.github.io/mononoki/)
+* Make sure you emacs version is >= 27
+* Download/clone this repo to your home dir and rename it to `.emacs.d`
