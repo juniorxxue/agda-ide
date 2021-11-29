@@ -65,3 +65,8 @@
 (add-to-list 'auto-mode-alist '("\\.lagda.md\\'" . agda2-mode))
 (load-file (let ((coding-system-for-read 'utf-8))
                 (shell-command-to-string "agda-mode locate")))
+
+;; undo
+(straight-use-package 'undo-tree)
+(require 'undo-tree)
+(global-undo-tree-mode)
