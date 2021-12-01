@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: toplike
+# key: toplike
+# --
+⌉ ${1:Type} ⌈

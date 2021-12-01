@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: sub
+# key: sub
+# --
+
+${1} ≤ ${2}

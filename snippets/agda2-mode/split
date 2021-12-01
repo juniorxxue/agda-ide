@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: split
+# key: split
+# --
+${2:Type} ⇜ ${1:Type} ⇝ ${3:Type}
