@@ -70,3 +70,9 @@
 (straight-use-package 'undo-tree)
 (require 'undo-tree)
 (global-undo-tree-mode)
+
+;; snippet
+(straight-use-package 'yasnippet)
+(require 'yasnippet)
+(yas-reload-all)
+(add-hook 'agda2-mode-hook #'yas-minor-mode)
