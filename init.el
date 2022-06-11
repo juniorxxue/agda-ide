@@ -42,6 +42,7 @@
 ;; theme
 (set-frame-font "mononoki 15")
 (straight-use-package 'spacemacs-theme)
+(setq spacemacs-theme-comment-bg nil)
 (require 'spacemacs-light-theme)
 (load-theme 'spacemacs-light t)
 (add-to-list 'default-frame-alist '(ns-transparent-titlebar .t))
